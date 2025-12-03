@@ -37,7 +37,7 @@ const ProcessSection = () => {
     <section 
       ref={ref} 
       className="py-20 md:py-28 lg:py-32"
-      style={{ background: 'hsl(220 15% 18%)' }}
+      style={{ background: 'hsl(0 0% 15%)' }}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
         {/* Header */}
@@ -49,15 +49,15 @@ const ProcessSection = () => {
         >
           <span 
             className="font-body text-sm tracking-[0.2em] uppercase"
-            style={{ color: 'hsl(35 55% 45%)' }}
+            style={{ color: 'hsl(120 8% 65%)' }}
           >
             How We Work
           </span>
           <h2 
             className="font-heading text-4xl md:text-5xl mt-3 leading-tight"
-            style={{ color: 'hsl(40 30% 97%)' }}
+            style={{ color: 'hsl(0 0% 96%)' }}
           >
-            Our Process — <span className="italic" style={{ color: 'hsl(38 50% 55%)' }}>From Vision to Reality</span>
+            Our Process — <span className="italic" style={{ color: 'hsl(120 6% 72%)' }}>From Vision to Reality</span>
           </h2>
         </motion.div>
 
@@ -75,26 +75,26 @@ const ProcessSection = () => {
               {index < steps.length - 1 && (
                 <div 
                   className="hidden lg:block absolute top-8 left-full w-full h-px"
-                  style={{ background: 'hsla(35,55%,45%,0.2)' }}
+                  style={{ background: 'hsla(120,8%,65%,0.2)' }}
                 />
               )}
 
               <div className="text-center lg:text-left">
                 <span 
                   className="font-heading text-6xl"
-                  style={{ color: 'hsla(35,55%,45%,0.2)' }}
+                  style={{ color: 'hsla(120,8%,65%,0.2)' }}
                 >
                   {step.number}
                 </span>
                 <h3 
                   className="font-heading text-2xl mt-2 mb-4"
-                  style={{ color: 'hsl(40 30% 97%)' }}
+                  style={{ color: 'hsl(0 0% 96%)' }}
                 >
                   {step.title}
                 </h3>
                 <p 
                   className="font-light leading-relaxed"
-                  style={{ color: 'hsla(40,30%,97%,0.7)' }}
+                  style={{ color: 'hsla(0,0%,96%,0.7)' }}
                 >
                   {step.description}
                 </p>

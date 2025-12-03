@@ -27,11 +27,11 @@ const ContactSection = () => {
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
-  const goldColor = 'hsl(35 55% 45%)';
-  const goldColorLight = 'hsl(38 50% 55%)';
-  const charcoalColor = 'hsl(220 15% 18%)';
-  const charcoalLightColor = 'hsl(220 10% 30%)';
-  const creamColor = 'hsl(40 30% 97%)';
+  const sageColor = 'hsl(120 8% 65%)';
+  const sageColorLight = 'hsl(120 6% 72%)';
+  const charcoalColor = 'hsl(0 0% 15%)';
+  const charcoalLightColor = 'hsl(0 0% 25%)';
+  const lightGrayColor = 'hsl(0 0% 96%)';
 
   return (
     <section 
@@ -49,19 +49,19 @@ const ContactSection = () => {
         >
           <span 
             className="font-body text-sm tracking-[0.2em] uppercase"
-            style={{ color: goldColor }}
+            style={{ color: sageColor }}
           >
             Get In Touch
           </span>
           <h2 
             className="font-heading text-4xl md:text-5xl mt-3 leading-tight"
-            style={{ color: creamColor }}
+            style={{ color: lightGrayColor }}
           >
-            Let's Build Your <span className="italic" style={{ color: goldColorLight }}>Future Together</span>
+            Let's Build Your <span className="italic" style={{ color: sageColorLight }}>Future Together</span>
           </h2>
           <p 
             className="mt-4 max-w-2xl mx-auto font-light"
-            style={{ color: `${creamColor}b3` }}
+            style={{ color: `${lightGrayColor}b3` }}
           >
             Ready to transform your home or begin a custom build? Contact us today to 
             schedule your consultation and start building a home you'll love for years to come.
@@ -79,16 +79,16 @@ const ContactSection = () => {
             <div className="flex items-start gap-4">
               <div 
                 className="w-12 h-12 flex items-center justify-center flex-shrink-0"
-                style={{ background: `${goldColor}1a` }}
+                style={{ background: `${sageColor}1a` }}
               >
-                <Phone className="w-5 h-5" style={{ color: goldColor }} />
+                <Phone className="w-5 h-5" style={{ color: sageColor }} />
               </div>
               <div>
-                <p className="text-sm mb-1" style={{ color: `${creamColor}99` }}>Call Us Today</p>
+                <p className="text-sm mb-1" style={{ color: `${lightGrayColor}99` }}>Call Us Today</p>
                 <a
                   href="tel:8134524648"
                   className="font-heading text-xl transition-colors hover:opacity-80"
-                  style={{ color: creamColor }}
+                  style={{ color: lightGrayColor }}
                 >
                   (813) 452-4648
                 </a>
@@ -98,16 +98,16 @@ const ContactSection = () => {
             <div className="flex items-start gap-4">
               <div 
                 className="w-12 h-12 flex items-center justify-center flex-shrink-0"
-                style={{ background: `${goldColor}1a` }}
+                style={{ background: `${sageColor}1a` }}
               >
-                <Mail className="w-5 h-5" style={{ color: goldColor }} />
+                <Mail className="w-5 h-5" style={{ color: sageColor }} />
               </div>
               <div>
-                <p className="text-sm mb-1" style={{ color: `${creamColor}99` }}>Email Us</p>
+                <p className="text-sm mb-1" style={{ color: `${lightGrayColor}99` }}>Email Us</p>
                 <a
                   href="mailto:info@kevinscribnerconstruction.com"
                   className="font-heading text-xl transition-colors hover:opacity-80"
-                  style={{ color: creamColor }}
+                  style={{ color: lightGrayColor }}
                 >
                   info@ksconstruction.com
                 </a>
@@ -117,13 +117,13 @@ const ContactSection = () => {
             <div className="flex items-start gap-4">
               <div 
                 className="w-12 h-12 flex items-center justify-center flex-shrink-0"
-                style={{ background: `${goldColor}1a` }}
+                style={{ background: `${sageColor}1a` }}
               >
-                <MapPin className="w-5 h-5" style={{ color: goldColor }} />
+                <MapPin className="w-5 h-5" style={{ color: sageColor }} />
               </div>
               <div>
-                <p className="text-sm mb-1" style={{ color: `${creamColor}99` }}>Service Area</p>
-                <p className="font-heading text-xl" style={{ color: creamColor }}>Tampa Bay, Florida</p>
+                <p className="text-sm mb-1" style={{ color: `${lightGrayColor}99` }}>Service Area</p>
+                <p className="font-heading text-xl" style={{ color: lightGrayColor }}>Tampa Bay, Florida</p>
               </div>
             </div>
           </motion.div>
@@ -142,44 +142,44 @@ const ContactSection = () => {
             >
               <div className="grid sm:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <label className="text-sm mb-2 block" style={{ color: `${creamColor}99` }}>Your Name</label>
+                  <label className="text-sm mb-2 block" style={{ color: `${lightGrayColor}99` }}>Your Name</label>
                   <Input
                     placeholder="John Smith"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="bg-[hsl(220,15%,18%)] border-[hsl(220,10%,30%)] text-[hsl(40,30%,97%)] placeholder:text-[hsla(40,30%,97%,0.4)]"
+                    className="bg-[hsl(0,0%,15%)] border-[hsl(0,0%,25%)] text-[hsl(0,0%,96%)] placeholder:text-[hsla(0,0%,96%,0.4)]"
                     required
                   />
                 </div>
                 <div>
-                  <label className="text-sm mb-2 block" style={{ color: `${creamColor}99` }}>Email Address</label>
+                  <label className="text-sm mb-2 block" style={{ color: `${lightGrayColor}99` }}>Email Address</label>
                   <Input
                     type="email"
                     placeholder="john@example.com"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="bg-[hsl(220,15%,18%)] border-[hsl(220,10%,30%)] text-[hsl(40,30%,97%)] placeholder:text-[hsla(40,30%,97%,0.4)]"
+                    className="bg-[hsl(0,0%,15%)] border-[hsl(0,0%,25%)] text-[hsl(0,0%,96%)] placeholder:text-[hsla(0,0%,96%,0.4)]"
                     required
                   />
                 </div>
               </div>
               <div className="mb-6">
-                <label className="text-sm mb-2 block" style={{ color: `${creamColor}99` }}>Phone Number</label>
+                <label className="text-sm mb-2 block" style={{ color: `${lightGrayColor}99` }}>Phone Number</label>
                 <Input
                   type="tel"
                   placeholder="(813) 000-0000"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className="bg-[hsl(220,15%,18%)] border-[hsl(220,10%,30%)] text-[hsl(40,30%,97%)] placeholder:text-[hsla(40,30%,97%,0.4)]"
+                  className="bg-[hsl(0,0%,15%)] border-[hsl(0,0%,25%)] text-[hsl(0,0%,96%)] placeholder:text-[hsla(0,0%,96%,0.4)]"
                 />
               </div>
               <div className="mb-6">
-                <label className="text-sm mb-2 block" style={{ color: `${creamColor}99` }}>Your Message</label>
+                <label className="text-sm mb-2 block" style={{ color: `${lightGrayColor}99` }}>Your Message</label>
                 <Textarea
                   placeholder="Tell us about your project..."
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="bg-[hsl(220,15%,18%)] border-[hsl(220,10%,30%)] text-[hsl(40,30%,97%)] placeholder:text-[hsla(40,30%,97%,0.4)] min-h-[150px]"
+                  className="bg-[hsl(0,0%,15%)] border-[hsl(0,0%,25%)] text-[hsl(0,0%,96%)] placeholder:text-[hsla(0,0%,96%,0.4)] min-h-[150px]"
                   required
                 />
               </div>

@@ -53,13 +53,13 @@ const WhyChooseUsSection = () => {
           >
             <span 
               className="font-body text-sm tracking-[0.2em] uppercase"
-              style={{ color: 'hsl(35 55% 45%)' }}
+              style={{ color: 'hsl(120 8% 65%)' }}
             >
               The Difference
             </span>
             <h2 className="font-heading text-4xl md:text-5xl text-foreground mt-3 mb-8 leading-tight">
               Why Choose <br />
-              <span className="italic" style={{ color: 'hsl(35 55% 45%)' }}>Kevin Scribner Construction?</span>
+              <span className="italic" style={{ color: 'hsl(120 8% 65%)' }}>Kevin Scribner Construction?</span>
             </h2>
 
             <div className="grid sm:grid-cols-2 gap-6">
@@ -73,9 +73,9 @@ const WhyChooseUsSection = () => {
                 >
                   <div 
                     className="flex-shrink-0 w-12 h-12 flex items-center justify-center"
-                    style={{ background: 'hsl(220 15% 18%)' }}
+                    style={{ background: 'hsl(0 0% 15%)' }}
                   >
-                    <feature.icon className="w-5 h-5" style={{ color: 'hsl(35 55% 45%)' }} />
+                    <feature.icon className="w-5 h-5" style={{ color: 'hsl(120 8% 65%)' }} />
                   </div>
                   <div>
                     <h3 className="font-heading text-lg text-foreground mb-1">{feature.title}</h3>
@@ -101,7 +101,7 @@ const WhyChooseUsSection = () => {
               />
               <div 
                 className="absolute inset-0"
-                style={{ border: '1px solid hsla(35,55%,45%,0.2)' }}
+                style={{ border: '1px solid hsla(120,8%,65%,0.2)' }}
               />
             </div>
             
@@ -111,17 +111,17 @@ const WhyChooseUsSection = () => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.6 }}
               className="absolute -bottom-8 -left-8 p-8 shadow-lg"
-              style={{ background: 'hsl(220 15% 18%)' }}
+              style={{ background: 'hsl(0 0% 15%)' }}
             >
               <p 
                 className="font-heading text-5xl mb-2"
-                style={{ color: 'hsl(35 55% 45%)' }}
+                style={{ color: 'hsl(120 8% 65%)' }}
               >
                 100+
               </p>
               <p 
                 className="font-light"
-                style={{ color: 'hsla(40,30%,97%,0.8)' }}
+                style={{ color: 'hsla(0,0%,96%,0.8)' }}
               >
                 Projects Completed<br />in Tampa Bay
               </p>

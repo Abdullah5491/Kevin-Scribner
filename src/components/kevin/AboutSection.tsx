@@ -26,16 +26,16 @@ const AboutSection = () => {
               />
               <div 
                 className="absolute inset-0"
-                style={{ border: '1px solid hsla(35,55%,45%,0.2)' }}
+                style={{ border: '1px solid hsla(120,8%,65%,0.2)' }}
               />
             </div>
             <div 
               className="absolute -bottom-6 -right-6 w-32 h-32 -z-10"
-              style={{ border: '2px solid hsla(35,55%,45%,0.3)' }}
+              style={{ border: '2px solid hsla(120,8%,65%,0.3)' }}
             />
             <div 
               className="absolute -top-6 -left-6 w-32 h-32 -z-10"
-              style={{ border: '2px solid hsla(35,55%,45%,0.3)' }}
+              style={{ border: '2px solid hsla(120,8%,65%,0.3)' }}
             />
           </motion.div>
 
@@ -47,13 +47,13 @@ const AboutSection = () => {
           >
             <span 
               className="font-body text-sm tracking-[0.2em] uppercase"
-              style={{ color: 'hsl(35 55% 45%)' }}
+              style={{ color: 'hsl(120 8% 65%)' }}
             >
               Expert Craftsmanship
             </span>
             <h2 className="font-heading text-4xl md:text-5xl text-foreground mt-3 mb-6 leading-tight">
               Expert Remodeling & <br />
-              <span className="italic" style={{ color: 'hsl(35 55% 45%)' }}>Renovation Services</span>
+              <span className="italic" style={{ color: 'hsl(120 8% 65%)' }}>Renovation Services</span>
             </h2>
             <div className="space-y-5 text-muted-foreground font-light leading-relaxed">
               <p>

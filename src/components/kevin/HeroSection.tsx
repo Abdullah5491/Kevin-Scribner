@@ -31,7 +31,7 @@ const HeroSection = () => {
         >
           <span 
             className="inline-block text-sm tracking-[0.3em] uppercase mb-4 font-body"
-            style={{ color: 'hsl(35 55% 45%)' }}
+            style={{ color: 'hsl(120 8% 65%)' }}
           >
             Tampa Bay's Premier Builder
           </span>
@@ -42,11 +42,11 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="font-heading text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-6 leading-tight"
-          style={{ color: 'hsl(40 30% 97%)' }}
+          style={{ color: 'hsl(0 0% 96%)' }}
         >
           Kevin Scribner
           <br />
-          <span className="italic" style={{ color: 'hsl(38 50% 55%)' }}>Construction</span>
+          <span className="italic" style={{ color: 'hsl(120 6% 72%)' }}>Construction</span>
         </motion.h1>
 
         <motion.p
@@ -54,7 +54,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="font-body text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed"
-          style={{ color: 'hsla(40,30%,97%,0.8)' }}
+          style={{ color: 'hsla(0,0%,96%,0.8)' }}
         >
           High-quality craftsmanship, innovative design, and dependable service. 
           From remodels to luxury custom builds, we bring your vision to life.
@@ -87,11 +87,11 @@ const HeroSection = () => {
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
           className="w-6 h-10 rounded-full flex items-start justify-center p-2"
-          style={{ border: '2px solid hsla(40,30%,97%,0.4)' }}
+          style={{ border: '2px solid hsla(0,0%,96%,0.4)' }}
         >
           <motion.div 
             className="w-1 h-2 rounded-full"
-            style={{ background: 'hsl(35 55% 45%)' }}
+            style={{ background: 'hsl(120 8% 65%)' }}
           />
         </motion.div>
       </motion.div>

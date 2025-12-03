@@ -16,7 +16,7 @@ const buttonVariants = cva(
         ghost: "rounded-md hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         luxury: "bg-accent text-accent-foreground font-body tracking-wide hover:opacity-90 hover:shadow-lg",
-        luxuryOutline: "border-2 border-[hsl(40,30%,97%,0.5)] bg-transparent text-[hsl(40,30%,97%)] font-body tracking-wide hover:bg-[hsl(40,30%,97%,0.1)] hover:border-[hsl(40,30%,97%)]",
+        luxuryOutline: "border-2 border-[hsl(0,0%,96%,0.5)] bg-transparent text-[hsl(0,0%,96%)] font-body tracking-wide hover:bg-[hsl(0,0%,96%,0.1)] hover:border-[hsl(0,0%,96%)]",
       },
       size: {
         default: "h-10 px-4 py-2",

@@ -26,7 +26,7 @@ const ServiceAreasSection = () => {
     <section 
       ref={ref} 
       className="py-20 md:py-28 lg:py-32"
-      style={{ background: 'hsl(40 20% 90%)' }}
+      style={{ background: 'hsl(0 0% 85%)' }}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -38,12 +38,12 @@ const ServiceAreasSection = () => {
           >
             <span 
               className="font-body text-sm tracking-[0.2em] uppercase"
-              style={{ color: 'hsl(35 55% 45%)' }}
+              style={{ color: 'hsl(120 8% 55%)' }}
             >
               Where We Work
             </span>
             <h2 className="font-heading text-4xl md:text-5xl text-foreground mt-3 mb-6 leading-tight">
-              Service <span className="italic" style={{ color: 'hsl(35 55% 45%)' }}>Areas</span>
+              Service <span className="italic" style={{ color: 'hsl(120 8% 55%)' }}>Areas</span>
             </h2>
             <p className="text-muted-foreground font-light leading-relaxed mb-8">
               Kevin Scribner Construction proudly serves homeowners throughout Tampa Bay 
@@ -61,8 +61,8 @@ const ServiceAreasSection = () => {
                   transition={{ duration: 0.5, delay: 0.3 + index * 0.05 }}
                   className="flex items-center gap-2 group"
                 >
-                  <MapPin className="w-4 h-4 flex-shrink-0" style={{ color: 'hsl(35 55% 45%)' }} />
-                  <span className="text-foreground font-light hover:text-[hsl(35,55%,45%)] transition-colors cursor-default">
+                  <MapPin className="w-4 h-4 flex-shrink-0" style={{ color: 'hsl(120 8% 55%)' }} />
+                  <span className="text-foreground font-light hover:text-[hsl(120,8%,55%)] transition-colors cursor-default">
                     {area}
                   </span>
                 </motion.div>
@@ -79,11 +79,11 @@ const ServiceAreasSection = () => {
           >
             <div 
               className="aspect-square relative overflow-hidden"
-              style={{ background: 'hsla(220,15%,18%,0.05)' }}
+              style={{ background: 'hsla(0,0%,15%,0.05)' }}
             >
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                  <MapPin className="w-16 h-16 mx-auto mb-4" style={{ color: 'hsl(35 55% 45%)' }} />
+                  <MapPin className="w-16 h-16 mx-auto mb-4" style={{ color: 'hsl(120 8% 55%)' }} />
                   <p className="font-heading text-3xl text-foreground">Tampa Bay</p>
                   <p className="text-muted-foreground mt-2">& Surrounding Areas</p>
                 </div>
@@ -92,15 +92,15 @@ const ServiceAreasSection = () => {
               {/* Decorative circles */}
               <div 
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full"
-                style={{ border: '1px solid hsla(35,55%,45%,0.1)' }}
+                style={{ border: '1px solid hsla(120,8%,65%,0.1)' }}
               />
               <div 
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full"
-                style={{ border: '1px solid hsla(35,55%,45%,0.1)' }}
+                style={{ border: '1px solid hsla(120,8%,65%,0.1)' }}
               />
               <div 
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[28rem] h-[28rem] rounded-full"
-                style={{ border: '1px solid hsla(35,55%,45%,0.05)' }}
+                style={{ border: '1px solid hsla(120,8%,65%,0.05)' }}
               />
             </div>
           </motion.div>

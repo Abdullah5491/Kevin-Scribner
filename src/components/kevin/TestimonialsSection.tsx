@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
     <section 
       ref={ref} 
       className="py-20 md:py-28 lg:py-32"
-      style={{ background: 'hsl(40 20% 90%)' }}
+      style={{ background: 'hsl(0 0% 85%)' }}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
         {/* Header */}
@@ -56,16 +56,16 @@ const TestimonialsSection = () => {
         >
           <span 
             className="font-body text-sm tracking-[0.2em] uppercase"
-            style={{ color: 'hsl(35 55% 45%)' }}
+            style={{ color: 'hsl(120 8% 55%)' }}
           >
             5-Star Rated
           </span>
           <h2 className="font-heading text-4xl md:text-5xl text-foreground mt-3 leading-tight">
-            What Our <span className="italic" style={{ color: 'hsl(35 55% 45%)' }}>Clients Say</span>
+            What Our <span className="italic" style={{ color: 'hsl(120 8% 55%)' }}>Clients Say</span>
           </h2>
           <div className="flex items-center justify-center gap-1 mt-4">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-5 h-5" style={{ fill: 'hsl(35 55% 45%)', color: 'hsl(35 55% 45%)' }} />
+              <Star key={i} className="w-5 h-5" style={{ fill: 'hsl(120 8% 55%)', color: 'hsl(120 8% 55%)' }} />
             ))}
           </div>
         </motion.div>
@@ -82,12 +82,12 @@ const TestimonialsSection = () => {
             >
               <Quote 
                 className="absolute top-6 right-6 w-8 h-8"
-                style={{ color: 'hsla(35,55%,45%,0.2)' }}
+                style={{ color: 'hsla(120,8%,65%,0.2)' }}
               />
               
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4" style={{ fill: 'hsl(35 55% 45%)', color: 'hsl(35 55% 45%)' }} />
+                  <Star key={i} className="w-4 h-4" style={{ fill: 'hsl(120 8% 55%)', color: 'hsl(120 8% 55%)' }} />
                 ))}
               </div>
               
@@ -98,7 +98,7 @@ const TestimonialsSection = () => {
               <div className="flex items-center gap-3 pt-4 border-t border-border">
                 <div 
                   className="w-10 h-10 flex items-center justify-center font-heading"
-                  style={{ background: 'hsl(220 15% 18%)', color: 'hsl(40 30% 97%)' }}
+                  style={{ background: 'hsl(0 0% 15%)', color: 'hsl(0 0% 96%)' }}
                 >
                   {testimonial.name.charAt(0)}
                 </div>
