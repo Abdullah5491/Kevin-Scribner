@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background -->
+  <rect width="100" height="100" fill="#1E1E1E" rx="12"/>
+  
+  <!-- Stylized K in sage green -->
+  <g fill="#A8B5A4">
+    <!-- Left vertical line of K -->
+    <rect x="25" y="20" width="8" height="60" rx="2"/>
+    
+    <!-- Upper diagonal of K -->
+    <path d="M 33 40 L 75 20 L 75 28 L 40 45 Z"/>
+    
+    <!-- Lower diagonal of K -->
+    <path d="M 40 55 L 75 72 L 75 80 L 33 60 Z"/>
+  </g>
+</svg>
