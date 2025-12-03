@@ -46,7 +46,7 @@ const ServicesSection = () => {
     <section 
       ref={ref} 
       className="py-20 md:py-28 lg:py-32"
-      style={{ background: 'hsl(220 15% 18%)' }}
+      style={{ background: 'hsl(0 0% 15%)' }}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
         {/* Header */}
@@ -58,15 +58,15 @@ const ServicesSection = () => {
         >
           <span 
             className="font-body text-sm tracking-[0.2em] uppercase"
-            style={{ color: 'hsl(35 55% 45%)' }}
+            style={{ color: 'hsl(120 8% 65%)' }}
           >
             What We Offer
           </span>
           <h2 
             className="font-heading text-4xl md:text-5xl mt-3 leading-tight"
-            style={{ color: 'hsl(40 30% 97%)' }}
+            style={{ color: 'hsl(0 0% 96%)' }}
           >
-            Our Construction <span className="italic" style={{ color: 'hsl(38 50% 55%)' }}>Services</span>
+            Our Construction <span className="italic" style={{ color: 'hsl(120 6% 72%)' }}>Services</span>
           </h2>
         </motion.div>
 
@@ -79,7 +79,7 @@ const ServicesSection = () => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: index * 0.15 }}
               className="group relative overflow-hidden"
-              style={{ background: 'hsla(220,10%,30%,0.5)' }}
+              style={{ background: 'hsla(0,0%,25%,0.5)' }}
             >
               {/* Image */}
               <div className="relative h-64 overflow-hidden">
@@ -90,7 +90,7 @@ const ServicesSection = () => {
                 />
                 <div 
                   className="absolute inset-0"
-                  style={{ background: 'linear-gradient(to top, hsl(220 15% 18%) 0%, hsla(220,15%,18%,0.5) 50%, transparent 100%)' }}
+                  style={{ background: 'linear-gradient(to top, hsl(0 0% 15%) 0%, hsla(0,0%,15%,0.5) 50%, transparent 100%)' }}
                 />
               </div>
 
@@ -99,20 +99,20 @@ const ServicesSection = () => {
                 <div className="flex items-center gap-4 mb-4">
                   <div 
                     className="w-12 h-12 flex items-center justify-center"
-                    style={{ background: 'hsla(35,55%,45%,0.1)' }}
+                    style={{ background: 'hsla(120,8%,65%,0.1)' }}
                   >
-                    <service.icon className="w-6 h-6" style={{ color: 'hsl(35 55% 45%)' }} />
+                    <service.icon className="w-6 h-6" style={{ color: 'hsl(120 8% 65%)' }} />
                   </div>
                   <h3 
                     className="font-heading text-2xl"
-                    style={{ color: 'hsl(40 30% 97%)' }}
+                    style={{ color: 'hsl(0 0% 96%)' }}
                   >
                     {service.title}
                   </h3>
                 </div>
                 <p 
                   className="font-light leading-relaxed"
-                  style={{ color: 'hsla(40,30%,97%,0.7)' }}
+                  style={{ color: 'hsla(0,0%,96%,0.7)' }}
                 >
                   {service.description}
                 </p>
@@ -120,7 +120,7 @@ const ServicesSection = () => {
 
               {/* Hover Border Effect */}
               <div 
-                className="absolute inset-0 border border-transparent transition-colors duration-500 group-hover:border-[hsla(35,55%,45%,0.3)]"
+                className="absolute inset-0 border border-transparent transition-colors duration-500 group-hover:border-[hsla(120,8%,65%,0.3)]"
               />
             </motion.div>
           ))}

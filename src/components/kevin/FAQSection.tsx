@@ -48,12 +48,12 @@ const FAQSection = () => {
         >
           <span 
             className="font-body text-sm tracking-[0.2em] uppercase"
-            style={{ color: 'hsl(35 55% 45%)' }}
+            style={{ color: 'hsl(120 8% 65%)' }}
           >
             Have Questions?
           </span>
           <h2 className="font-heading text-4xl md:text-5xl text-foreground mt-3 leading-tight">
-            Frequently Asked <span className="italic" style={{ color: 'hsl(35 55% 45%)' }}>Questions</span>
+            Frequently Asked <span className="italic" style={{ color: 'hsl(120 8% 65%)' }}>Questions</span>
           </h2>
         </motion.div>
 
@@ -76,7 +76,7 @@ const FAQSection = () => {
                   className={`w-5 h-5 flex-shrink-0 transition-transform duration-300 ${
                     openIndex === index ? "rotate-180" : ""
                   }`}
-                  style={{ color: 'hsl(35 55% 45%)' }}
+                  style={{ color: 'hsl(120 8% 65%)' }}
                 />
               </button>
               <motion.div
